@@ -17,3 +17,16 @@ def somar(v):
     
 v=list(map(int,input().split()))
 print(f'{somar(v)}')
+
+
+
+def somar(v):
+    soma=0
+    for i in v:
+        soma+=i
+    return soma
+tam=int(input('tamanho vtor'))
+v=[None]*tam
+for i in range(tam):
+    v[i]=int(input(' valores'))
+print(f'{somar(v)}')
